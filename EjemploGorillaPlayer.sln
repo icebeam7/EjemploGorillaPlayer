@@ -17,7 +17,12 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EjemploGorillaPlayer", "Eje
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{0477f2ad-6b15-4e70-8e7d-e1685e784262}*SharedItemsImports = 4
+		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{225913e0-1035-4a38-b421-3d95b1828007}*SharedItemsImports = 4
+		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{3342a71f-dc13-4000-bea7-3c7bbae78770}*SharedItemsImports = 4
+		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{a0dd4598-396c-4ed8-a931-d864d3858079}*SharedItemsImports = 4
 		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{ba72b44a-0043-4782-a942-eb211f572b4a}*SharedItemsImports = 13
+		EjemploGorillaPlayer\EjemploGorillaPlayer\EjemploGorillaPlayer.projitems*{bbdff2c9-a708-4bd3-b222-b0a3f9a9e3f2}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

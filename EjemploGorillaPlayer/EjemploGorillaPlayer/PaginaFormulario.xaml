@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploGorillaPlayer.PaginaFormulario">
+  <StackLayout BackgroundColor="White">
+    <Label TextColor="Blue" Text="Formulario de datos" FontSize="20" />
+    <Entry x:Name="txtNombre" WidthRequest="200" Placeholder="Escribe tu nombre..." />
+    <StackLayout Orientation="Horizontal">
+      <Label TextColor="Black" Text="Eres..." />
+      <Picker HorizontalOptions="FillAndExpand">
+        <Picker.Items>
+            <x:String>Mujer</x:String>
+            <x:String>Hombre</x:String> 
+        </Picker.Items>
+    </Picker> 
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label TextColor="Black" Text="¿Cual es tu fecha de cumpleaños?" />
+      <DatePicker Format="dd-MM-yyyy" HorizontalOptions="Start"/>
+    </StackLayout>
+    <ActivityIndicator IsRunning="True"/>
+    <StackLayout Orientation="Horizontal">
+      <Label TextColor="Red" Text="Progreso" />
+      <ProgressBar Progress=".4" WidthRequest="200" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label TextColor="#6622CC" Text="Calificación" />
+      <Slider x:Name="slider" Maximum="10" Minimum="5" Value="7" WidthRequest="200"/>
+      <Label BindingContext="{x:Reference slider}"
+          Text="{Binding Value, StringFormat='Tu valor es {0}'}"
+          FontAttributes="Bold" FontSize="Large" TextColor="Green"
+          HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label TextColor="Lime" Text="¿Te gusta el futbol?" />
+      <Switch IsToggled="True"/>
+    </StackLayout>
+    
+    <Button TextColor="Black" BackgroundColor="Gray" Text="Enviar información" HorizontalOptions="Center"/>
+  </StackLayout>
+</ContentPage>
